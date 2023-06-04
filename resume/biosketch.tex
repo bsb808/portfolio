@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+
+%% Define some new colors
+\usepackage{xcolor}
+\definecolor{mBlue}{RGB}{51, 77, 167}
+\newcommand{\blue}[1]{{\color{mBlue}#1}}
+
+%% Page and text formatting
+\usepackage[left=1.0in, right=1.0in, top=1.0in, bottom=1.0in]{geometry} % margins
+\usepackage{setspace}
+\singlespacing % No more than 6 lines of text per inch
+\usepackage{amsmath, amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+
+%% Make the sections start with (a), (b), etc.
+\renewcommand\thesection{(\alph{section})}
+\renewcommand\thesubsection{(\alph{subsection})}
+
+\usepackage{lastpage}
+
+%% Set up footer
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{\small{Brian S.\ Bingham}}
+ \cfoot{\small{\today}}
+ \rfoot{\small{\thepage of \pageref{LastPage}}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%% Set up hyperlinks
+\usepackage[linktoc=page]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = mBlue,
+  citecolor = mBlue,
+  linkcolor = mBlue,
+}
+
+%% Set up citations and bibliography
+\usepackage{bibunits}
+\usepackage[sort&compress,super]{natbib}
+%\defaultbibliographystyle{apsrev4-2}
+\defaultbibliographystyle{IEEEtranN}
+\setcitestyle{comma}
+\setlength{\bibsep}{0pt}
+\renewcommand{\bibnumfmt}[1]{\ \ \ #1.}
+\renewcommand\refname{\vspace{-7mm}}
+
+%% This allows us to start a bibliography with arbitrary number
+\usepackage{etoolbox}
+\makeatletter
+\newcommand*{\newbibstartnumber}[1]{%
+  \apptocmd{\thebibliography}{%
+    \global\c@NAT@ctr #1\relax
+    \addtocounter{NAT@ctr}{-1}%
+  }{}{}%
+}
+\makeatother
+
+%% Reduce whitespace around lists (globally)
+\usepackage{enumitem}
+\setlist[itemize]{nosep,left=0pt}
+\setlist[enumerate]{nosep}
+\setlist[description]{nosep}
+
+%% Formatting for sections
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titlespacing*{\section}{0mm}{2mm}{1mm}[0mm] % left top bottom right
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titlespacing*{\subsection}{0mm}{2mm}{1mm}[0mm]
+\titleformat*{\subsubsection}{\normalsize\bfseries\itshape}
+\titlespacing*{\subsubsection}{0mm}{1mm}{0mm}[0mm]
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\noindent \textbf{\uppercase{Biographical Sketch}}
+\vspace{2mm}
+
+\noindent \textbf{Brian S.\ Bingham}
+\vspace{1mm}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+Professor of Mechanical and Aerospace Engineering & Email: \\
+Naval Postgraduate School & \href{mailto:bbignham@nps.edu}{bbingham@nps.edu} \\
+Monterey, CA &  Phone: 831-760-1670\\
+\hline
+\end{tabular*}
+
+\section{Education \& Training}
+
+\begin{tabular}{l l l r}
+Woods Hole Oceanographic Institution & Woods Hole, MA &  \multicolumn{2}{r}{Post-Doctoral Investigator, 2004}\\
+Massachusetts Institute Technology & Cambridge, MA & Mech. Engineering & Ph.D.  2003 \\
+Massachusetts Institute Technology & Cambridge, MA & Mech. Engineering & M.S.  1998 \\
+University of Missouri—Rolla & Rolla, MO & Mech. Engineering & B.S. 1996 \\
+\end{tabular}
+
+\section{Research \& Professional Experience}
+
+\begin{tabular}{l p{5in}}
+2022--present & Department Chair, Mechanical and Aerospace Engineering, \newline Naval Postgraduate School \\
+2015--2022 & Professor and Associate Professor (2015-2021), Mechanical and Aerospace Engineering, Naval Postgraduate School \\
+2018--2022 & Director, Consortium for Robotics Unmanned Systems Education and \newline Research (CRUSER) \\
+2009--2015 & Assistant and Associate Professor,  Mechanical Engineering, \newline University of Hawaii at Manoa \\
+2004-2009  & Assistant Professor of Engineering, \newline Franklin W. Olin College of Engineering \\
+\end{tabular}
+
+\section{Recent Publications}
+
+\vspace{2mm}
+
+\begin{bibunit}
+\nocite{zhang22dave}
+\nocite{choi21physics}
+\nocite{thulasiraman2020evaluation}
+\nocite{foster2020wave}
+\nocite{bingham2019maritime}
+%\nocite{wang2019dynamic}
+%\nocite{fahad2019simulating}
+%\nocite{edwards2016humma}
+% Conferences
+%\nocite{thulasiraman2020evaluation, fernandez2020performance, bingham2019maritime}
+\putbib[bbing_master]
+\end{bibunit}
+
+\end{document}
+
