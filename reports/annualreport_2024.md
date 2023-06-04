@@ -6,6 +6,7 @@
 
 * Setting Direction
 * Strategic Communications
+* Harvard MDP program
 
 ### Personnel
 
@@ -22,7 +23,9 @@
 * Budget: 
   * In collaboration with BSC, BFM and ERM managed budget execution for FY23.  Due to savings on labor side (additional reimbursable execution and slow hiring), was able to put labor funds to use on non-labor needs for department to address deferred maintenance issues in the department.
   * Developed FY24 budget and coordinated team effort by BFM and BSCs to 
-* 
+
+* Safety: 
+  * Worked directly with Safety (Tony Colon) on variety of important and urgent safety issues 
 
 ### Curriculum Sustainment and Continual Improvement
 
@@ -54,6 +57,8 @@
 * Bring in outside experts
 
 ## CRUSER
+
+* Deputy Director
 
 ## Robotics Research
 
