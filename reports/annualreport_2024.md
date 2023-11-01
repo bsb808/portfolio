@@ -11,7 +11,7 @@
 ### Personnel
 
 * Hiring: 
-  * Executed TT faculty search for N (goal = 2-3) positions.
+  * Executed TT faculty search multiple position and successfully onboarded N (goal = 2-3) positions.
   * Brought aboard N (goal = 3) new technical staff and implemented a new concept for technical staff for efficiently and appropriately sharing support and expectations for simultaneous reimbursable and direct salary support.
 
 
@@ -45,7 +45,7 @@
 ### USNA Collaboration
 
 * Codify internship program - hosted 8 USNA interns
-* Led institutional support for Bowman and Shoemake scolars
+* Led institutional support for Bowman and Shoemake scholars
 * Organzied SNA program for MAE for Aerospace Engineering certificate for DL student awaiting flight school.
 
 ### Distance Learning Instruction
@@ -61,9 +61,10 @@
 
 ### Robotics Research
 
-* VRX
+* Virtual RobotX (VRX) 2023
 
 ### Large Language Models
 
-* Blog posts* Demonstartion project with institutional research
+* Blog posts
+* Demonstartion project with institutional research
 
