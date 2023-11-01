@@ -11,18 +11,19 @@
 ### Personnel
 
 * Hiring: 
-  * Executed TT faculty search for two positions.
-  * Brought aboard three new technical staff and implemented a new concept for technical staff for efficiently and appropriately sharing support and expectations for simultaneous reimbursable and direct salary support.
+  * Executed TT faculty search for N (goal = 2-3) positions.
+  * Brought aboard N (goal = 3) new technical staff and implemented a new concept for technical staff for efficiently and appropriately sharing support and expectations for simultaneous reimbursable and direct salary support.
 
 
 ### Management
 
-* Full execution of DPMAP performance in April/May 2023.  All MAE folks had 2023 plans appraised and 2024 plans put in place.  Met with each person individually to develop shared expectations for 2024 cycle.
-* Recommended performance, on-the-spot and special-act awards as part of NPS awards program.
+* Personnel:
+  * Full execution of DPMAP performance in April/May 2023.  All MAE folks had 2023 plans appraised and 2024 plans put in place.  Met with each person individually to develop shared expectations for 2024 cycle.
+  * Recommended performance, on-the-spot and special-act awards as part of NPS awards program.
 
 * Budget: 
   * In collaboration with BSC, BFM and ERM managed budget execution for FY23.  Due to savings on labor side (additional reimbursable execution and slow hiring), was able to put labor funds to use on non-labor needs for department to address deferred maintenance issues in the department.
-  * Developed FY24 budget and coordinated team effort by BFM and BSCs to 
+  * Developed FY24 budget and coordinated team effort by BFM and BSCs to meet MAE requirements.
 
 * Safety: 
   * Worked directly with Safety (Tony Colon) on variety of important and urgent safety issues 
@@ -30,15 +31,12 @@
 ### Curriculum Sustainment and Continual Improvement
 
 * Led creation of MAE Master Course Plan
-
-* Planning: Developed teaching schedule and implemented/maintained educational plans (course offerings) for all MAE courses.  (Need to delegate this.)
-
+* Planning: Developed teaching schedule and implemented/maintained educational plans (course offerings) for all MAE courses.  
 * Led effort to improve internal communication to better support students by documenting processes, thesis guides, expectations, curriculum matrices and course offerings, e.g., https://wiki.nps.edu/display/MAE/Mechanical+and+Aerospace+Engineering+Department
-
 * Co-taught first offering of new ME1810 - thesis preparation course with CDR MacDonald.  This is a new start in MAE to address shortcomings in both course matrix development for 2-year students and thesis proposal development.  Caleb and I developed the lightweight coruse and offered a first prototype.  The course is now standardized for future use.
-
 * ABET
-
+  * Led execution of mid-cycle curriclum review as part of budget-cuts and ABET continual improvement.
+  * Led MAE year-of-record   
 
 ### Halligan Modernization
 
@@ -48,25 +46,24 @@
 
 * Codify internship program - hosted 8 USNA interns
 * Led institutional support for Bowman and Shoemake scolars
-* Organzied SNA program.
+* Organzied SNA program for MAE for Aerospace Engineering certificate for DL student awaiting flight school.
 
 ### Distance Learning Instruction
 
 * Convened MAE faculty and on-campus experts (VTE folks and flex-space folks) to assess best practices at NPS and implement improved hybrid learning instructional support in the department. 
-
 * Bring in outside experts
 
-## CRUSER
+## Research
+
+### CRUSER
 
 * Deputy Director
 
-## Robotics Research
+### Robotics Research
 
 * VRX
 
-## AI Research
+### Large Language Models
 
-* Large Language Models
-  * Blog posts
-  * Demonstartion project with institutional research
+* Blog posts* Demonstartion project with institutional research
 
